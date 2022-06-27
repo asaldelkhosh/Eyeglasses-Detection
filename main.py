@@ -63,7 +63,7 @@ def max_pool_2x2(x):
 """
 detect the images.
 """
-def CNN_EYEGLASSES(ImageX,ImageY):
+def train(ImageX,ImageY):
     session = tf.InteractiveSession()
     x = tf.placeholder(tf.float32, shape = [None, 10800]) 
     y = tf.placeholder(tf.float32, shape = [None,None])
@@ -138,4 +138,4 @@ if __name__ == "__main__":
     ImageY[ImageY < 0] = 0
 
     # start training
-    CNN_EYEGLASSES(ImageX_R,ImageY)
+    train(ImageX_R,ImageY)
