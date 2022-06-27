@@ -5,6 +5,8 @@ import numpy as np
 from PIL import Image
 # tensorflow for our model
 import tensorflow as tf
+# matplotlib
+from matplotlib import plt
 # and glob
 import glob
 
