@@ -1,13 +1,9 @@
 # importing modules
-# numpy
 import numpy as np
-# pillow for reading images
 from PIL import Image
-# tensorflow for our model
 import tensorflow as tf
-# matplotlib
 from matplotlib import plt
-# and glob
+
 import glob
 
 
@@ -121,7 +117,7 @@ def train(ImageX,ImageY):
 
 if __name__ == "__main__":
     # in here we are just doing it on one dataset, you can choose other datasets
-    filesPath = 'faces_4/tammo/'
+    filesPath = 'dataset/faces/tammo/'
     
     # load images from the filesPath
     ImageX = extract_files(filesPath)
