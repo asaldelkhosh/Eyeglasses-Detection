@@ -7,6 +7,8 @@
 Tranning a Convolutional Neural Network for detecting eyeglasses people.
 Visit [Kaggel](https://www.kaggle.com/code/lebegus/glasses-detection) for more information.
 
+<br />
+
 ## Schema
 
 Here is a following schema of our CNN model.
