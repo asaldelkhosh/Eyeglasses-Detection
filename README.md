@@ -1,8 +1,4 @@
-<h1 align="center">
-  Eyeglasses Detection
-</h1>
-
-<br />
+# Eyeglasses Detection
 
 Tranning a Convolutional Neural Network for detecting eyeglasses people.
 Visit [Kaggel](https://www.kaggle.com/code/lebegus/glasses-detection) for more information.
